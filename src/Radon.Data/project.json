@@ -1,0 +1,37 @@
+﻿{
+  "version": "1.0.0-*",
+  "title": "Radon Data Infrastructure",
+  "description": "Data Infrastructure of the RESTful APIs for .NET Framework (Radon)",
+  "authors": [ "Sudarsan Balaji" ],
+  "tags": [ "radon", "framework", "rest", "restful", "data", "infrastructure", "query", "entity", "dto", "data transfer objects", "entities", "repository", "service", "repositories", "services" ],
+  "projectUrl": "https://github.com/kenshinthebattosai/Radon",
+  "licenseUrl": "",
+  "owners": [ "Sudarsan Balaji" ],
+  "copyright": "Copyright © 2016, Sudarsan Balaji",
+
+  "dependencies": {
+  },
+
+  "frameworks": {
+    "uap10.0": {
+      "dependencies": {
+        "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "System.Linq.Expressions": "4.0.11-beta-23516"
+      }
+    },
+    "net45": {
+      "frameworkAssemblies": {
+        "System.Threading": "4.0.0.0",
+        "System.Threading.Tasks": "4.0.0.0",
+        "System.Runtime": "4.0.0.0",
+        "System.Collections": "4.0.0.0",
+        "System.Linq": "4.0.0.0",
+        "System.Linq.Expressions": "4.0.0.0"
+      }
+    }
+  }
+}

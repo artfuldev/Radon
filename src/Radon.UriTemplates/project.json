@@ -1,0 +1,40 @@
+﻿{
+  "version": "1.0.0-*",
+  "title": "Radon Uri Templates",
+  "description": "Uri Templates Module of the RESTful APIs for .NET framework (Radon)",
+  "authors": [ "Sudarsan Balaji" ],
+  "tags": [ "data", "uri", "templates", "template", "templating", "radon" ],
+  "projectUrl": "https://github.com/kenshinthebattosai/Radon",
+  "licenseUrl": "",
+  "owners": [ "Sudarsan Balaji" ],
+  "copyright": "Copyright © 2016, Sudarsan Balaji",
+
+  "frameworks": {
+    "uap10.0": {
+      "dependencies": {
+        "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Reflection.Extensions": "4.0.1-beta-23516",
+        "System.Globalization": "4.0.11-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Text.RegularExpressions": "4.0.11-beta-23516",
+        "System.Reflection.TypeExtensions": "4.1.0-beta-23516"
+      }
+    },
+    "net45": {
+      "frameworkAssemblies": {
+        "System.Threading": "4.0.0.0",
+        "System.Threading.Tasks": "4.0.0.0",
+        "System.Runtime": "4.0.0.0",
+        "System.Collections": "4.0.0.0",
+        "System.Linq": "4.0.0.0",
+        "System.Linq.Expressions": "4.0.0.0",
+        "System.Text.RegularExpressions": "4.0.0.0"
+      }
+    }
+  }
+}

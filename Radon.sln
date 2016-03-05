@@ -22,6 +22,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Radon.Data", "src\Radon.Dat
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Radon.UriTemplates.Tests", "tests\Radon.UriTemplates.Tests\Radon.UriTemplates.Tests.xproj", "{F66CE0A0-52F3-4978-AC32-07FAD5E88142}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Radon.Core.Tests", "tests\Radon.Core.Tests\Radon.Core.Tests.xproj", "{9A611978-78BA-42FE-B895-D9FFA91F35C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{F66CE0A0-52F3-4978-AC32-07FAD5E88142}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F66CE0A0-52F3-4978-AC32-07FAD5E88142}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F66CE0A0-52F3-4978-AC32-07FAD5E88142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A611978-78BA-42FE-B895-D9FFA91F35C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A611978-78BA-42FE-B895-D9FFA91F35C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A611978-78BA-42FE-B895-D9FFA91F35C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A611978-78BA-42FE-B895-D9FFA91F35C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{C148788E-A38D-487B-8138-267DADF5A466} = {166073B3-C05B-40CD-BC6D-66A963CE3C9A}
 		{86BEA822-8CDC-4DB4-9A83-1F612C8724C4} = {166073B3-C05B-40CD-BC6D-66A963CE3C9A}
 		{F66CE0A0-52F3-4978-AC32-07FAD5E88142} = {F3BF2390-A536-4544-997C-7BCC21F7ECFD}
+		{9A611978-78BA-42FE-B895-D9FFA91F35C4} = {F3BF2390-A536-4544-997C-7BCC21F7ECFD}
 	EndGlobalSection
 	GlobalSection(CodealikeProperties) = postSolution
 		SolutionGuid = c0d6e374-2943-4029-b68f-adbae5d486eb

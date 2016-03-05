@@ -22,6 +22,7 @@
         "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
       }
     },
+    "net451": {},
     "dotnet5.4": {
       "dependencies": {
         "Microsoft.AspNet.JsonPatch": "1.0.0-rc1-final",

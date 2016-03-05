@@ -5,15 +5,15 @@
   "authors": [ "Sudarsan Balaji" ],
   "tags": [ "restful", "rest", "api", "framework", "resource", "representation", "radon" ],
   "projectUrl": "https://github.com/kenshinthebattosai/Radon",
-  "licenseUrl": "",
+  "licenseUrl": "https://github.com/kenshinthebattosai/Radon/blob/master/LICENSE",
   "owners": [ "Sudarsan Balaji" ],
   "copyright": "Copyright © 2016, Sudarsan Balaji",
 
   "dependencies": {
-    "Newtonsoft.Json": "8.0.2",
     "Humanizer.Core": "2.0.1",
-    "Radon.UriTemplates": "",
-    "Radon.Data": ""
+    "Newtonsoft.Json": "6.0.6",
+    "Radon.Data": "",
+    "Radon.UriTemplates": ""
   },
 
   "frameworks": {
@@ -22,24 +22,16 @@
         "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
       }
     },
-    "dnx451": {
+    "dotnet5.4": {
       "dependencies": {
+        "Microsoft.AspNet.JsonPatch": "1.0.0-rc1-final",
         "System.Reflection.TypeExtensions": "4.1.0-beta-23516",
-        "System.Net.Http": "4.0.1-beta-23516"
-      }
-    },
-    "dnxcore50": {
-      "dependencies": {
-        "System.Reflection.TypeExtensions": "4.1.0-beta-23516",
-        "System.Net.Http": "4.0.1-beta-23516"
-      }
-    },
-    "net45": {
-      "frameworkAssemblies": {
-        "System.Threading": "4.0.0.0",
-        "System.Threading.Tasks": "4.0.0.0",
-        "System.Collections": "4.0.0.0",
-        "System.Net.Http": "4.0.0.0"
+        "System.Net.Http": "4.0.1-beta-23516",
+        "System.Runtime": "4.0.21-beta-23516",
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Text.RegularExpressions": "4.0.11-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Reflection.Extensions": "4.0.1-beta-23516"
       }
     }
   }

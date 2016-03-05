@@ -18,19 +18,13 @@
         "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
       }
     },
-    "dnxcore50": {
+    "dotnet5.4": {
       "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23516",
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Runtime": "4.0.21-beta-23516",
         "System.Linq.Expressions": "4.0.11-beta-23516"
-      }
-    },
-    "net45": {
-      "frameworkAssemblies": {
-        "System.Threading": "4.0.0.0",
-        "System.Threading.Tasks": "4.0.0.0",
-        "System.Runtime": "4.0.0.0",
-        "System.Collections": "4.0.0.0",
-        "System.Linq": "4.0.0.0",
-        "System.Linq.Expressions": "4.0.0.0"
       }
     }
   }

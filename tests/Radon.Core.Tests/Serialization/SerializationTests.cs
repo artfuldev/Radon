@@ -11,6 +11,7 @@ namespace Radon.Core.Tests.Serialization
         private class TestClass
         {
             public int GhostTownsCount { get; set; }
+            public string SomeNullable { get; set; }
         }
 
         private enum TestEnum
@@ -37,6 +38,20 @@ namespace Radon.Core.Tests.Serialization
         public void SerializationResolvesToSnakeCase()
         {
             // Arrange
+            var obj = new TestClass() { GhostTownsCount = 5, SomeNullable = "Hello"};
+
+            // Act
+            var actual = _service.Serialize(obj);
+
+            // Assert
+            Assert.Contains("ghost_towns_count", actual);
+            Assert.Contains("some_nullable", actual);
+        }
+
+        [Fact]
+        public void SerializationDoesNotSerializeNullValues()
+        {
+            // Arrange
             var obj = new TestClass() { GhostTownsCount = 5 };
 
             // Act
@@ -44,6 +59,7 @@ namespace Radon.Core.Tests.Serialization
 
             // Assert
             Assert.Contains("ghost_towns_count", actual);
+            Assert.DoesNotContain("some_nullable", actual);
         }
 
         [Fact]

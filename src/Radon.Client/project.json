@@ -1,0 +1,33 @@
+﻿{
+  "version": "1.0.0-*",
+  "title": "Radon Client Module",
+  "description": "Client Module of the RESTful APIs for .NET (Radon) framework.",
+  "authors": [ "Sudarsan Balaji" ],
+  "tags": [ "radon", "rest", "restful", "webapi", "api", "hateoas", "framework", "resource", "client", "apiclient", "restclient"],
+  "projectUrl": "https://github.com/kenshinthebattosai/Radon",
+  "licenseUrl": "https://github.com/kenshinthebattosai/Radon/blob/master/LICENSE",
+  "owners": [ "Sudarsan Balaji" ],
+  "copyright": "Copyright © 2016, Sudarsan Balaji",
+
+  "dependencies": {
+    "Radon.Core": ""
+  },
+
+  "frameworks": {
+    "uap10.0": {
+      "dependencies": {
+        "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+      }
+    },
+    "net451": { },
+    "dotnet5.4": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23516",
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Runtime": "4.0.21-beta-23516",
+        "System.Threading": "4.0.11-beta-23516"
+      }
+    }
+  }
+}

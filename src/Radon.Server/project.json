@@ -1,0 +1,24 @@
+﻿{
+  "version": "1.0.0-*",
+  "title": "Radon Server Module",
+  "description": "Server Module of the RESTful APIs for .NET (Radon) framework.",
+  "authors": [ "Sudarsan Balaji" ],
+  "tags": [ "radon", "rest", "restful", "webapi", "api", "hateoas", "framework", "resource", "server", "controller", "controllers" ],
+  "projectUrl": "https://github.com/kenshinthebattosai/Radon",
+  "licenseUrl": "https://github.com/kenshinthebattosai/Radon/blob/master/LICENSE",
+  "owners": [ "Sudarsan Balaji" ],
+  "copyright": "Copyright © 2016, Sudarsan Balaji",
+
+  "dependencies": {
+    "AutoMapper": "4.0.4",
+    "Microsoft.AspNet.Authentication": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+    "Radon.Core": "",
+    "Radon.Data.Caching": "",
+    "System.IO": "4.0.11-beta-23516"
+  },
+
+  "frameworks": {
+    "dnxcore50": { }
+  }
+}

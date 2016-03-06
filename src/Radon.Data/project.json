@@ -3,7 +3,7 @@
   "title": "Radon Data Infrastructure",
   "description": "Data Infrastructure of the RESTful APIs for .NET Framework (Radon)",
   "authors": [ "Sudarsan Balaji" ],
-  "tags": [ "radon", "framework", "rest", "restful", "data", "infrastructure", "query", "entity", "dto", "data transfer objects", "entities", "repository", "service", "repositories", "services" ],
+  "tags": [ "radon", "rest", "restful", "webapi", "api", "hateoas", "framework", "resource", "data", "infrastructure", "query", "entity", "dto", "data transfer objects", "entities", "repository", "service", "repositories", "services" ],
   "projectUrl": "https://github.com/kenshinthebattosai/Radon",
   "licenseUrl": "",
   "owners": [ "Sudarsan Balaji" ],

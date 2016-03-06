@@ -1,13 +1,18 @@
 ﻿{
   "version": "1.0.0-*",
-  "title": "Radon Uri Templates",
-  "description": "Uri Templates Module of the RESTful APIs for .NET framework (Radon)",
+  "title": "Radon Caching Infrastructure",
+  "description": "Caching Infrastructure of the RESTful APIs for .NET Framework (Radon)",
   "authors": [ "Sudarsan Balaji" ],
-  "tags": [ "radon", "rest", "restful", "webapi", "api", "hateoas", "framework", "resource", "data", "uri", "templates", "template", "templating" ],
+  "tags": [ "radon", "rest", "restful", "webapi", "api", "hateoas", "framework", "resource", "data", "cache", "infrastructure", "caching", "cache policy", "provider" ],
   "projectUrl": "https://github.com/kenshinthebattosai/Radon",
-  "licenseUrl": "",
+  "licenseUrl": "https://github.com/kenshinthebattosai/Radon/blob/master/LICENSE",
   "owners": [ "Sudarsan Balaji" ],
   "copyright": "Copyright © 2016, Sudarsan Balaji",
+  "releaseNotes": "",
+
+  "dependencies": {
+    "Radon.Data": ""
+  },
 
   "frameworks": {
     "uap10.0": {
@@ -15,18 +20,13 @@
         "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
       }
     },
-    "net451": {},
+    "net451": { },
     "dotnet5.4": {
       "dependencies": {
         "Microsoft.CSharp": "4.0.1-beta-23516",
         "System.Collections": "4.0.11-beta-23516",
-        "System.Dynamic.Runtime": "4.0.11-beta-23516",
-        "System.Globalization": "4.0.11-beta-23516",
         "System.Linq": "4.0.1-beta-23516",
-        "System.Reflection.Extensions": "4.0.1-beta-23516",
-        "System.Reflection.TypeExtensions": "4.1.0-beta-23516",
         "System.Runtime": "4.0.21-beta-23516",
-        "System.Text.RegularExpressions": "4.0.11-beta-23516",
         "System.Threading": "4.0.11-beta-23516"
       }
     }

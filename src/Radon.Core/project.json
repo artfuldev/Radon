@@ -3,7 +3,7 @@
   "title": "Radon Core",
   "description": "The core library of the RESTful APIs for .NET (Radon) framework.",
   "authors": [ "Sudarsan Balaji" ],
-  "tags": [ "restful", "rest", "api", "framework", "resource", "representation", "radon" ],
+  "tags": [ "radon", "rest", "restful", "webapi", "api", "hateoas", "framework", "resource", "representation"],
   "projectUrl": "https://github.com/kenshinthebattosai/Radon",
   "licenseUrl": "https://github.com/kenshinthebattosai/Radon/blob/master/LICENSE",
   "owners": [ "Sudarsan Balaji" ],

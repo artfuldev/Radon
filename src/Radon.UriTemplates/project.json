@@ -3,7 +3,7 @@
   "title": "Radon Uri Templates",
   "description": "Uri Templates Module of the RESTful APIs for .NET framework (Radon)",
   "authors": [ "Sudarsan Balaji" ],
-  "tags": [ "data", "uri", "templates", "template", "templating", "radon" ],
+  "tags": [ "radon", "rest", "restful", "webapi", "api", "hateoas", "framework", "resource", "data", "uri", "templates", "template", "templating" ],
   "projectUrl": "https://github.com/kenshinthebattosai/Radon",
   "licenseUrl": "",
   "owners": [ "Sudarsan Balaji" ],

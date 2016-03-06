@@ -27,7 +27,7 @@ namespace Radon.Client.Http
         private readonly IHttpClient _httpClient;
 
         /// <summary>
-        /// Creates a new connection instance used to make requests of the Sulekha Property API.
+        /// Creates a new connection instance used to make requests of the API.
         /// </summary>
         public Connection(Uri baseAddress, string userAgent)
             : this(baseAddress, userAgent, AnonymousCredentials)
@@ -35,7 +35,7 @@ namespace Radon.Client.Http
         }
 
         /// <summary>
-        /// Creates a new connection instance used to make requests of the Sulekha Property API.
+        /// Creates a new connection instance used to make requests of the API.
         /// </summary>
         /// <param name="httpClient">
         /// The client to use for executing requests
@@ -46,11 +46,9 @@ namespace Radon.Client.Http
         }
 
         /// <summary>
-        /// Creates a new connection instance used to make requests of the Sulekha Property API.
+        /// Creates a new connection instance used to make requests of the API.
         /// </summary>
-        /// <param name="baseAddress">
-        /// The address to point this client to such as https://api.github.com or the URL to a GitHub Enterprise 
-        /// instance</param>
+        /// <param name="baseAddress">The address to point this client to.</param>
         /// <param name="credentialStore">Provides credentials to the client when making requests</param>
         public Connection(Uri baseAddress, string userAgent, ICredentialStore credentialStore)
             : this(baseAddress, userAgent, credentialStore, new HttpClientAdapter(), new SerializationService())
@@ -58,11 +56,9 @@ namespace Radon.Client.Http
         }
 
         /// <summary>
-        /// Creates a new connection instance used to make requests of the Sulekha Property API.
+        /// Creates a new connection instance used to make requests of the API.
         /// </summary>
-        /// <param name="baseAddress">
-        /// The address to point this client to such as https://api.github.com or the URL to a GitHub Enterprise 
-        /// instance</param>
+        /// <param name="baseAddress">The address to point this client to.</param>
         /// <param name="credentialStore">Provides credentials to the client when making requests</param>
         /// <param name="httpClient">A raw <see cref="IHttpClient"/> used to make requests</param>
         /// <param name="serializer">Class used to serialize and deserialize JSON requests</param>
@@ -72,11 +68,9 @@ namespace Radon.Client.Http
         }
 
         /// <summary>
-        /// Creates a new connection instance used to make requests of the Sulekha Property API.
+        /// Creates a new connection instance used to make requests of the API.
         /// </summary>
-        /// <param name="baseAddress">
-        /// The address to point this client to such as https://api.github.com or the URL to a GitHub Enterprise 
-        /// instance</param>
+        /// <param name="baseAddress">The address to point this client to.</param>
         /// <param name="credentialStore">Provides credentials to the client when making requests</param>
         /// <param name="httpClient">A raw <see cref="IHttpClient"/> used to make requests</param>
         /// <param name="serializer">Class used to serialize and deserialize JSON requests</param>
@@ -472,7 +466,7 @@ namespace Radon.Client.Http
 
         private async Task<IApiResponse<string>> GetHtml(IRequest request)
         {
-            request.Headers.Add("Accept", "application/vnd.github.html");
+            request.Headers.Add("Accept", "text/html");
             var response = await RunRequest(request, CancellationToken.None);
             return new ApiResponse<string>(response, response.Body as string);
         }

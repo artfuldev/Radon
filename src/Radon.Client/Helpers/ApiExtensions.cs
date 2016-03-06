@@ -120,8 +120,7 @@ namespace Radon.Client.Helpers
         /// Throws an exception if the HTTP status does not match either a true or false response.
         /// </summary>
         /// <remarks>
-        /// Some API endpoints return a 204 for "true" and 404 for false. See https://developer.github.com/v3/activity/starring/#check-if-you-are-starring-a-repository
-        /// for one example. This encapsulates that logic.
+        /// Some API endpoints return a 204 for "true" and 404 for false. This encapsulates that logic.
         /// </remarks>
         /// <exception cref="ApiException">Thrown if the status is neither 204 nor 404</exception>
         /// <param name="response">True for a 204 response, False for a 404</param>

@@ -133,10 +133,6 @@ namespace Radon.Client.Http
         /// Performs an asynchronous HTTP POST request.
         /// Attempts to map the response body to an object of type <typeparamref name="T"/>
         /// </summary>
-        /// <remarks>
-        /// We have one case where we need to override the BaseAddress. This overload is for that case.
-        /// https://developer.github.com/v3/oauth/#web-application-flow
-        /// </remarks>
         /// <typeparam name="T">The type to map the response to</typeparam>
         /// <param name="uri">URI endpoint to send request to</param>
         /// <param name="body">The object to serialize as the body of the request</param>

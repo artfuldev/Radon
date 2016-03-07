@@ -1,0 +1,21 @@
+﻿{
+  "version": "1.0.0-*",
+  "title": "Radon To Do List Sample Core Module",
+  "description": "The core module of a ToDo Sample using Radon.",
+  "authors": [ "Sudarsan Balaji" ],
+  "tags": [ "radon", "rest", "restful", "webapi", "api", "hateoas", "framework", "resource", "representation", "sample", "todo" ],
+  "projectUrl": "https://github.com/kenshinthebattosai/Radon",
+  "licenseUrl": "https://github.com/kenshinthebattosai/Radon/blob/master/LICENSE",
+  "owners": [ "Sudarsan Balaji" ],
+  "copyright": "Copyright © 2016, Sudarsan Balaji",
+
+  "dependencies": {
+    "Radon.Core": ""
+  },
+
+  "frameworks": {
+    "uap10.0": { },
+    "net451": { },
+    "dotnet5.4": { }
+  }
+}

@@ -33,22 +33,6 @@ namespace RadonToDo.WebApi.Core.Exceptions
         }
     }
 
-    public class InvalidMobileNumberException : UserException
-    {
-        public InvalidMobileNumberException()
-            : base("The specified mobile number is invalid", UserErrorCode.InvalidMobile, HttpStatusCode.BadRequest)
-        {
-        }
-    }
-
-    public class InvalidEmailException : UserException
-    {
-        public InvalidEmailException()
-            : base("The specified email is invalid", UserErrorCode.InvalidEmail, HttpStatusCode.BadRequest)
-        {
-        }
-    }
-
     public class InvalidLoginException : UserException
     {
         public InvalidLoginException()

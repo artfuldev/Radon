@@ -6,6 +6,10 @@
   "projectUrl": "",
   "licenseUrl": "",
 
+  "dependencies": {
+    "Radon.Client": "" 
+  },
+
   "frameworks": {
     "net451": { },
     "dotnet5.4": {
